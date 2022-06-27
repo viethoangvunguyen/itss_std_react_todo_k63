@@ -25,7 +25,13 @@ function Todo() {
   });
   
   const handleCheck = checked => {
-
+    // const newItems = items.map(item => {
+    //   if (item.key === checked.key) {
+    //     item.done = !item.done;
+    //   }
+    //   return item;
+    // });
+    // putItems(newItems);
     updateItem(checked);
   };
   
