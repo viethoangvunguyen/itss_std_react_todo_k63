@@ -10,7 +10,7 @@ if (!firebase.apps.length) {
     storageBucket: "todos-f713a.appspot.com",
     messagingSenderId: "845598667896",
     appId: "1:845598667896:web:7fb4affabf2be09469a98d",
-    measurementId: "G-1RLLGRJP7X",
+    measurementId: "G-1RLLGRJP7X"
   };
   firebase.initializeApp(firebaseConfig);
 }
